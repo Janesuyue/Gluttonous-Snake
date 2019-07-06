@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>  
+    <!-- 开始层 -->
+    <div class="startpage" id="startPage">
+        <div class="startBtn" id="startBtn">开始游戏</div>
+    </div>
+    <!-- 游戏层 -->
+    <div class="wrapper">
+        <!-- 开始按钮 -->
+        <div class="left-side">
+            <span id="startP">开始</span>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="score">
+                    分数：
+                    <span id="score">0</span>
+                </div>
+            </div>
+            <div class="content" id="content"></div>
+        </div>
+    </div>
+    <!-- 游戏结束层 -->
+    <div class="loser" id="lose">
+        <div class="con">
+            <span class="goal">当前得分</span>
+            <div class="close" id="close">×</div>
+            <span class="loserScore" id="loserScore"></span>
+        </div>
+    </div>
+    <script src="js/demo.js"></script>
+</body>
+</html>
